@@ -22,7 +22,7 @@ This project was developed as part of my **Data Analytics coursework** and focus
 
 ## 📊 Model Implementation & Insights
 
-We implemented **two machine learning models** — **Logistic Regression** and **Random Forest Classifier** — to predict the 10-year risk of Coronary Heart Disease (CHD).
+We implemented **two machine learning models:** **Logistic Regression** and **Random Forest Classifier** to predict the 10-year risk of Coronary Heart Disease (CHD).
 
 ### 🔢 Model Performance Metrics
 
