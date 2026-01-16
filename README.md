@@ -19,6 +19,32 @@ This project was developed as part of my **Data Analytics coursework** and focus
 ## 📂 Dataset Description
 
 **Dataset Used:** *Framingham Heart Study* (`framingham.csv`)
+**Source:** Framingham Heart Study
+**Observations:** ~4,240
+**Features (examples):** age, gender, currentSmoker, cigsPerDay, totChol, sysBP, diaBP, BMI, glucose, prevalentHyp, diabetes, prevalentStroke
+**Target:** TenYearCHD (1 = disease, 0 = no disease)
+
+## 🔧 Tech Stack
+Python 3.8+
+pandas, numpy — data manipulation
+matplotlib, seaborn — plotting & EDA
+scikit-learn — modeling & evaluation
+jupyter notebook — experiments & visualization
+
+## ⚙️ Pre-processing:
+
+- Handling missing values
+- Encoding categorical variables
+- Feature scaling (where applicable)
+- Train/test split with stratification
+
+## 🔧 Tech Stack
+
+- Python 3.8+
+- pandas, numpy — data manipulation
+- matplotlib, seaborn — plotting & EDA
+- scikit-learn — modeling & evaluation
+- jupyter notebook — experiments & visualization
 
 ## 📊 Model Implementation & Insights
 
@@ -45,3 +71,6 @@ We implemented **two machine learning models:** **Logistic Regression** and **Ra
 - Random Forest, being an ensemble model, **handled non-linear patterns and feature interactions more effectively**, making it more reliable for heart disease prediction.
 - Overall, Random Forest is the **preferred model**, while Logistic Regression provides interpretability and foundational understanding.
 
+## 🙋 Contact
+
+Created by milanpatel09 — contributions and feedback welcome.
