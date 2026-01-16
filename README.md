@@ -1,7 +1,6 @@
 # Heart Disease Prediction using Machine Learning – Data Analytics Project
 
-This project applies **Data Analytics + Machine Learning** techniques to predict the **10-year risk of Coronary Heart Disease (CHD)** using the well-known **Framingham Heart Study** dataset.  
-The workflow includes data loading, EDA, preprocessing, model training, and evaluation.
+This project applies **Data Analytics + Machine Learning** techniques to predict the **10-year risk of Coronary Heart Disease (CHD)** using the well-known **Framingham Heart Study** dataset. The workflow includes data loading, EDA, preprocessing, model training, and evaluation.
 
 ---
 
