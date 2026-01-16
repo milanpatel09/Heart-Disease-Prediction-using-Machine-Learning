@@ -15,6 +15,8 @@ This project was developed as part of my **Data Analytics coursework** and focus
 - Training machine learning models  
 - Evaluating predictive performance
 
+---
+
 ## 📂 Dataset Description
 
 **Dataset Used:** *Framingham Heart Study* (`framingham.csv`)
@@ -23,12 +25,16 @@ This project was developed as part of my **Data Analytics coursework** and focus
 **Features (examples):** age, gender, currentSmoker, cigsPerDay, totChol, sysBP, diaBP, BMI, glucose, prevalentHyp, diabetes, prevalentStroke
 **Target:** TenYearCHD (1 = disease, 0 = no disease)
 
+---
+
 ## 🔧 Tech Stack
 Python 3.8+
 pandas, numpy — data manipulation
 matplotlib, seaborn — plotting & EDA
 scikit-learn — modeling & evaluation
 jupyter notebook — experiments & visualization
+
+---
 
 ## ⚙️ Pre-processing:
 
@@ -37,6 +43,8 @@ jupyter notebook — experiments & visualization
 - Feature scaling (where applicable)
 - Train/test split with stratification
 
+---
+
 ## 🔧 Tech Stack
 
 - Python 3.8+
@@ -44,6 +52,8 @@ jupyter notebook — experiments & visualization
 - matplotlib, seaborn — plotting & EDA
 - scikit-learn — modeling & evaluation
 - jupyter notebook — experiments & visualization
+
+---
 
 ## 📊 Model Implementation & Insights
 
@@ -62,13 +72,17 @@ We implemented **two machine learning models:** **Logistic Regression** and **Ra
   - Precision: **0.76**
   - Recall: **0.10**
   - F1-Score: **0.11**
+ 
+---
 
-### 🧠 Insights
+## 🧠 Insights
 
 - **Random Forest performed better than Logistic Regression**, achieving higher accuracy, precision, and recall.
 - Logistic Regression acted as a **strong baseline model**, but its very low recall indicates difficulty in identifying true CHD-positive patients because of the dataset’s **class imbalance**.
 - Random Forest, being an ensemble model, **handled non-linear patterns and feature interactions more effectively**, making it more reliable for heart disease prediction.
 - Overall, Random Forest is the **preferred model**, while Logistic Regression provides interpretability and foundational understanding.
+
+---
 
 ## 🙋 Contact
 
