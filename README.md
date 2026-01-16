@@ -84,6 +84,6 @@ We implemented **two machine learning models:** **Logistic Regression** and **Ra
 
 ---
 
-## 🙋 Contact
+## 🙋 Author
 
-Created by milanpatel09 — contributions and feedback welcome.
+milanpatel09 — contributions and feedback welcome.
